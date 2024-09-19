@@ -30,12 +30,12 @@ textarea {
 input[type="text"]:focus,
 input[type="number"]:focus,
 textarea:focus {
-    border-color: #666666;
-    background-color: #333333;
+    border-color: #0a06ff;
+    background-color: #ffffff;
 }
 
 button {
-    background-color: #1a69b8;
+    background-color: #2305d1;
     color: #ffffff;
 }
 

@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nova_media = ($media + $recuperacao) / 2;
 
     // Mensagem final
-    if ($nova_media >= 10) {
+    if ($nova_media >= 7) {
         $resultado = "Aprovado";
     } else {
         $resultado = "Reprovado";
