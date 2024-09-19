@@ -1,0 +1,44 @@
+body {
+    background-color: #ebebeb;
+    color: #ffffff;
+}
+
+h1, h2 {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    background-color: #415eff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+label {
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    background-color: #ffffff;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    border-color: #666666;
+    background-color: #333333;
+}
+
+button {
+    background-color: #1a69b8;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
